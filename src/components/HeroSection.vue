@@ -23,7 +23,7 @@ const statusRows: StatusRow[] = [
         </p>
         <div class="btn-row">
           <a href="#work" class="btn btn-solid">View work</a>
-          <a href="/Mao_Chenda_Resume.pdf" class="btn btn-outline">Download resume</a>
+          <a :href="`${import.meta.env.BASE_URL}Mao_Chenda_Resume.pdf`" class="btn btn-outline">Download resume</a>
         </div>
       </div>
 

@@ -2,6 +2,7 @@
 import type { Project } from '../data/projects'
 
 defineProps<{ project: Project }>()
+
 </script>
 
 <template>

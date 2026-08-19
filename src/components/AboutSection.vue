@@ -7,7 +7,7 @@ const stack = ['Vue', 'React', 'React Native', 'Angular', 'TypeScript', 'Tailwin
     <div class="wrap">
       <div class="section-label">about</div>
       <p>
-        Results-driven frontend developer with 8+ years across web and mobile,
+        Results-driven frontend developer with 8 years across web and mobile,
         currently leading a 5–8 person engineering team as frontend technical
         authority at Mobile C&C. I've shipped enterprise Internet Banking and
         Loan Origination systems, a school management platform used by thousands,

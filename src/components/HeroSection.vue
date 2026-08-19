@@ -2,10 +2,10 @@
 interface StatusRow { k: string; v: string; up?: boolean }
 
 const statusRows: StatusRow[] = [
-  { k: 'experience', v: '8+ yrs' },
+  { k: 'experience', v: '8 yrs' },
   { k: 'core stack', v: 'Vue · Pinia · TS' },
   { k: 'domain', v: 'banking / fintech' },
-  { k: 'title', v: 'Senior Officer, Web Dev' },
+  { k: 'title', v: 'Senior Officer, Frontend Dev' },
   { k: 'availability', v: '● open to work', up: true },
 ]
 </script>
@@ -14,21 +14,20 @@ const statusRows: StatusRow[] = [
   <header class="hero">
     <div class="wrap hero-grid">
       <div>
-        <div class="eyebrow"><span class="dot"></span>senior officer, web development · phnom penh</div>
+        <div class="eyebrow"><span class="dot"></span>senior officer, frontend development · phnom penh</div>
         <h1>Frontend developer<br /><span>for systems that can't afford to break.</span></h1>
         <p>
-          8+ years building interfaces for internet banking and loan origination
+          8 years building interfaces for internet banking and loan origination
           platforms — from individual contributor to tech lead to team manager.
           Vue, React, and Angular, and a habit of shipping things that hold up under real traffic.
         </p>
         <div class="btn-row">
           <a href="#work" class="btn btn-solid">View work</a>
-          <a href="#" class="btn btn-outline">Download résumé</a>
+          <a href="/Mao_Chenda_Resume.pdf" class="btn btn-outline">Download resume</a>
         </div>
       </div>
 
       <div class="status-card">
-        <div class="head"><span>system status</span><span>uptime 99.9%</span></div>
         <div v-for="row in statusRows" :key="row.k" class="status-row">
           <span class="k">{{ row.k }}</span>
           <span class="v" :class="{ up: row.up }">{{ row.v }}</span>
